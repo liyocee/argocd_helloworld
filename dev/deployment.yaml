@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: helloword-app
+  name: helloworld-app
 spec:
   selector:
     matchLabels:
@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: helloword-app
+        app: helloworld-app
     spec:
       containers:
-      - name: helloword-app
+      - name: helloworld-app
         image: nanajanashia/argocd-app:1.2
         ports:
         - containerPort: 8080
