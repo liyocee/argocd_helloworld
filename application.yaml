@@ -9,7 +9,7 @@ spec:
     repoURL: https://github.com/liyocee/argocd_helloworld.git
     targetRevision: HEAD
     path: dev
-  destinations:
+  destination:
     server: https://kubernetes.default.svc
     namespace: argocd-apps
   syncPolicy:
