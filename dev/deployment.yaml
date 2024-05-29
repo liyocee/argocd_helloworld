@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: hellowrld-app
+        app: helloword-app
     spec:
       containers:
-      - name: helloworld-app
+      - name: helloword-app
         image: nanajanashia/argocd-app:1.2
         ports:
         - containerPort: 8080
