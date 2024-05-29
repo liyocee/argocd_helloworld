@@ -6,6 +6,7 @@ spec:
   selector:
     matchLabels:
       app: helloworld-app
+  replicas: 2
   template:
     metadata:
       labels:
